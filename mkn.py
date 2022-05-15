@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 
 
-mkn = Client(
+MT_ID_Bot = Client(
       "id bot",
       bot_token="5231845980:AAHLyejUGI9C6EanZK7id7QSI-iVIWEoJZ8",
       api_id="6152295",
@@ -10,7 +10,7 @@ mkn = Client(
 
 CMD = [".", "/"]
 
-@mkn.on_message(filters.command(["start"], CMD))
+@MT_ID_Bot.on_message(filters.command(["start"], CMD))
 async def info(motech, msg):
     await msg.reply_text(
         text="hello"
@@ -37,6 +37,20 @@ async def info(motech, msg):
                 f"❌️𝐄𝐫𝐫𝐨𝐫 <b><i>{hidden}</i></b> ❌️𝐄𝐫𝐫𝐨𝐫",
                 quote=True,
             )
-        
+        else:
+            text = f"<u>𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 👀</u>.\n\n"
+            if msg.forward_from_chat["type"] == "channel":
+                text += "<u>📢 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</u>"
+            if msg.forward_from_chat["type"] == "supergroup":
+                text += "<u>🗣️ 𝐆𝐫𝐨𝐮𝐩</u>"
+            text += f'\n\n📃 𝐍𝐚𝐦𝐞 {msg.forward_from_chat["title"]}'
+            if msg.forward_from_chat["username"]:
+                text += f'\n\n➡️ 𝐅𝐫𝐨𝐦 : @{msg.forward_from_chat["username"]}'
+                text += f'\n\n🆔 𝐈𝐃 : `{msg.forward_from_chat["id"]}`'
+            else:
+                text += f'\n\n🆔 𝐈𝐃 `{msg.forward_from_chat["id"]}`\n\n'
+            await msg.reply(text, quote=True)
 
-mkn.run()
+
+        
+MT_ID_Bot.run()
