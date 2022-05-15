@@ -16,7 +16,7 @@ async def info(motech, msg):
         text="hello"
     )
 
-@mkn.on_message(filters.private & filters.forwarded)                           
+@MT_ID_Bot.on_message(filters.private & filters.forwarded)                           
 async def info(motech, msg):
     user = await motech.get_chat_member(update_channel, msg.chat.id)
     if msg.forward_from:
