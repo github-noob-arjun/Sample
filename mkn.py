@@ -18,6 +18,7 @@ async def info(motech, msg):
 
 @mkn.on_message(filters.private & filters.forwarded)                           
 async def info(motech, msg):
+    user = await motech.get_chat_member(update_channel, msg.chat.id)
     if msg.forward_from:
         text = "<u>𝐅𝐨𝐫𝐰𝐚𝐫𝐝 𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 👀</u> \n\n"
         if msg.forward_from["is_bot"]:
