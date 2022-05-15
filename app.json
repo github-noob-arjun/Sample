@@ -1,6 +1,7 @@
 {
     "name": "Id Bot",
     "description": "bot",
+    "stack": "container",
     "keywords": [
         "id bot"
     ],
