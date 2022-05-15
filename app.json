@@ -5,14 +5,7 @@
         "id bot"
     ],
     "repository": "https://github.com/MrMKN/id",
-    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",
-    "env": {
-        "API_ID": {
-            "description": "Your APP ID From https://youtu.be/5eEsvLAKVc0 or @MT_MyTelegramOrg_Bot",
-            "value": "",
-            "required": false
-        }
-    },
+    "success_url": "https://youtube.com/channel/UCmGBpXoM-OEm-FacOccVKgQ",             
     "buildpacks": [
         {
             "url": "heroku/python"
