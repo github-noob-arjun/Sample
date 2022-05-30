@@ -1,5 +1,8 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery 
+import logging
+logging.basicConfig(level=logging.INFO)
+
 
 MKN = Client(
       "protester",
