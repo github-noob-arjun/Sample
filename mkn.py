@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery 
 
 MKN = Client(
-      name="protester",
+      "protester",
       bot_token=["5231845980:AAEZoyG-mykf7-5d8zFx_X_RWcWBv_SUP0M", "5365245771:AAGXOZ3aQz3ZQbtqBKaE79y93EYZ7u06cNA"],
       api_id="6152295",
       api_hash="2d291700c03d39c4fdb7092d1f34f07c",
