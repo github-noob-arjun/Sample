@@ -42,5 +42,5 @@ async def callback_data(client, query: CallbackQuery):
 
 
 print("💥BOT IS STARTLED🚀")        
-MKN.start()
+MKN.run()
 
