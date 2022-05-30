@@ -41,6 +41,6 @@ async def callback_data(client, query: CallbackQuery):
         await query.answer("┣⪼🚀 𝚂𝙴𝚁𝚅𝙴𝚁 : 𝙷𝙴𝚁𝚄𝙺𝙾\n┣⪼🍀 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 : 𝙼𝙾𝚃𝙾𝚁 𝙰𝚂𝚈𝙽𝙲𝙾\n┣⪼🗂️ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚁𝙾𝙶𝚁𝙰𝙼\n┣⪼📃 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 3\n┣⪼👨‍💻 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 : 𝙹𝚎𝚘𝚕", show_alert=True)
 
 
-print("💥BOT IS STARTLED🚀")        
+print("💥𝑴𝑲𝑵 𝑰𝑺 𝑺𝑻𝑨𝑹𝑻𝑬𝑫🚀")        
 MKN.run()
 
