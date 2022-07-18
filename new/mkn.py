@@ -11,4 +11,4 @@ MKN = Client(
 
 @MKN.on_message(filters.text)
 async def start(client, message):
-    await message.reply_text("Success Message 💥")
+    await message.reply_text("Success Message 💥 1")
