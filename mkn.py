@@ -4,9 +4,9 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQ
 
 MKN = Client(
       "protester",
-      bot_token="5231845980yG-mykf7-5d8zFx_X_RWcWBv_SUP0M",
-      api_id="6125",
-      api_hash="2d291700db7092d1f34f07c",
+      bot_token="5589185991:AAGDjCCcp7IG1u_YQErui5yLwyfXizptXYI",
+      api_id="4738674",
+      api_hash="f2be74eaa9b1cb32498f45d04e4dbb54",
 )
 
 CMD = [".", "/"]
