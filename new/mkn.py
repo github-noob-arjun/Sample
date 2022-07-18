@@ -9,6 +9,6 @@ MKN = Client(
       api_hash="f2be74eaa9b1cb32498f45d04e4dbb54",
 )
 
-@MKN.on_message(filters.text)
+@MKN.on_message(filters.command("start"))
 async def start(client, message):
     await message.reply_text("Success Message 💥 1")
