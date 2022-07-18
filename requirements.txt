@@ -1,2 +1,4 @@
 Pyrogram==1.4.16
 tgcrypto
+
+git+https://github.com/github-noob-arjun/Multi-clt@main
