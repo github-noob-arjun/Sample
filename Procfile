@@ -1,1 +1,1 @@
-worker: python3 mkn.py
+worker: python3 -m new
