@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery 
 import asyncio
 
-App1 = Client(
+DltBot = Client(
       "app1",
       bot_token="5589185991:AAGDjCCcp7IG1u_YQErui5yLwyfXizptXYI",
       api_id="4738674",
