@@ -1,3 +1,2 @@
-# pyro-tester
+# Channel Message Dlt
 
-This is pyrogram bot example & mkn script 
