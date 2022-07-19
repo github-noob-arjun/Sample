@@ -10,7 +10,7 @@ DltBot = Client(
 )
 
 media_filter = filters.document | filters.video | filters.audio
-
+CHANNELS = [-1001527733655, -1001527733655]
 @DltBot.on_message(filters.command("start"))
 async def start(bot, message):
     await message.reply("**✅ Bot working**")
