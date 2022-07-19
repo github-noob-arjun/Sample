@@ -11,6 +11,10 @@ DltBot = Client(
 
 media_filter = filters.document | filters.video | filters.audio
 
+@DltBot.on_message(filters.command("start")
+async def start(bot, message):
+    await message.reply("**✅ Bot working**")
+
 @DltBot.on_message(filters.chat(CHANNELS) & media_filter)
 async def media(bot, message):
     await asyncio.sleep(10) 
