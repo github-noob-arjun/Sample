@@ -13,5 +13,5 @@ media_filter = filters.document | filters.video | filters.audio
 
 @DltBot.on_message(filters.chat(CHANNELS) & media_filter)
 async def media(bot, message):
-    await asyncio.sleep(18000) 
+    await asyncio.sleep(10) 
     await message.delete()
